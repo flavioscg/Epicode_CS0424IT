@@ -67,7 +67,7 @@ ovvero: 128.0.0.0 in decimale.
 
 Quindi:
 
-    Network ip: 128.0.0.0/8
+    Network ip: 128.0.0.0/12
     Gateway ip: 1.0.0.1
     Broadcast ip: 128.15.255.255 (stesso metodo di settare i bit a 1 dopo i 12bit in questo caso)
     Ottetti host: 2 (20 bit) restanti
