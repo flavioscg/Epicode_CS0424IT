@@ -1,3 +1,5 @@
+
+
 # Consegna S1/L2
 
 Richiesta:
@@ -37,7 +39,7 @@ Quindi:
    
     Considerando ancora il binario dell'indirizzo di rete: 
     00000001.00000000.00000000.00000000
-    e settando tutti i numeri binari a 1 dopo gli 8 bit della subnet, otteniamo il broadcast
+    e settando tutti i bit a 1 dopo gli 8 bit della subnet, otteniamo il broadcast
     00000001.11111111.11111111.11111111
   
   	Quindi:
@@ -45,7 +47,7 @@ Quindi:
     
     Ottetti host: 3: Secondo, terzo e quarto. (24 bit)
     Ottetti network: 1: il primo. (8 bit)
-    Host massimi: 2^24 (ottetti disponibili per gli host in questo caso) − 2 = 16777214.
+    Host massimi: 2^24 (bit disponibili per gli host in questo caso) − 2 = 16777214.
     
     
     
@@ -67,10 +69,10 @@ Quindi:
 
     Network ip: 128.0.0.0/8
     Gateway ip: 1.0.0.1
-    Broadcast ip: 128.15.255.255 (stesso metodo di settare i binari a 1 dopo i 12bit in questo caso)
+    Broadcast ip: 128.15.255.255 (stesso metodo di settare i bit a 1 dopo i 12bit in questo caso)
     Ottetti host: 2 (20 bit) restanti
     Ottetti network: 2(12bit)
-    Host massimi: 2^20(ottetti disponibili per gli host in questo caso) − 2 = 1048574.
+    Host massimi: 2^20(bit disponibili per gli host in questo caso) − 2 = 1048574.
     
     
     
