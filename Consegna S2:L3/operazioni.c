@@ -20,15 +20,15 @@ int main() {
     printf("\n");
     printf("Cosa vuoi fare? -> ");
 
-    scanf("%c", & scelta);
+    scanf("%c", &scelta);
 
     switch (scelta) {
     case 'A':
     case 'a':
       printf("Inserisci il primo numero: ");
-      scanf("%f", & primo_numero);
+      scanf("%f", &primo_numero);
       printf("Inserisci il secondo numero: ");
-      scanf("%f", & secondo_numero);
+      scanf("%f", &secondo_numero);
       printf("\n");
       printf("Risultato: %f\n", addizione(primo_numero, secondo_numero));
       printf("\n");
@@ -38,9 +38,9 @@ int main() {
     case 'B':
     case 'b':
       printf("Inserisci il primo numero: ");
-      scanf("%f", & primo_numero);
+      scanf("%f", &primo_numero);
       printf("Inserisci il secondo numero: ");
-      scanf("%f", & secondo_numero);
+      scanf("%f", &secondo_numero);
       printf("\n");
       printf("Risultato: %f\n", sottrazione(primo_numero, secondo_numero));
       printf("\n");
@@ -51,9 +51,9 @@ int main() {
     case 'c':
       moltiplicazione(primo_numero, secondo_numero);
       printf("Inserisci il primo numero: ");
-      scanf("%f", & primo_numero);
+      scanf("%f", &primo_numero);
       printf("Inserisci il secondo numero: ");
-      scanf("%f", & secondo_numero);
+      scanf("%f", &secondo_numero);
       printf("\n");
       printf("Risultato: %f\n", moltiplicazione(primo_numero, secondo_numero));
       printf("\n");
@@ -64,9 +64,9 @@ int main() {
     case 'd':
       divisione(primo_numero, secondo_numero);
       printf("Inserisci il primo numero: ");
-      scanf("%f", & primo_numero);
+      scanf("%f", &primo_numero);
       printf("Inserisci il secondo numero: ");
-      scanf("%f", & secondo_numero);
+      scanf("%f", &secondo_numero);
       printf("\n");
       printf("Risultato: %0.3f\n", divisione(primo_numero, secondo_numero));
       printf("\n");
@@ -77,9 +77,9 @@ int main() {
     case 'e':
       media(primo_numero, secondo_numero);
       printf("Inserisci il primo numero: ");
-      scanf("%f", & primo_numero);
+      scanf("%f", &primo_numero);
       printf("Inserisci il secondo numero: ");
-      scanf("%f", & secondo_numero);
+      scanf("%f", &secondo_numero);
       printf("\n");
       printf("Risultato: %0.1f\n", media(primo_numero, secondo_numero));
       printf("\n");
