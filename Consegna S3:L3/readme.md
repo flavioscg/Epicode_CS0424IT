@@ -1,4 +1,4 @@
-Un semplice esercizio in python fatto con alcuni concetti di base molto elementari. Ho utilizzato la libreria  **simple-term-menu** per rendere il tutto un po' più interattivo :-)
+Un semplice esercizio in python fatto con alcuni concetti di base molto elementari. Ho utilizzato la libreria  **simple-term-menu** per rendere il tutto un po' più interattivo 😃
 
 
 
