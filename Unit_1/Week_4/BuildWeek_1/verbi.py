@@ -1,19 +1,12 @@
 import requests
 
+# Script rudimentale per enumerazione verbi HTTP mediante OPTIONS e risposta Allow in header. 
+# Di default su http (creato esclusivamente per esercitazioni su metasploitable 2)
 
 def main():
-    # Input dell'utente per l'host e la porta
-    host = input("Inserisci ip dell'host: ")
-    porta = input("Inserisci porta: ")
+    # Input dell'utente per ricevere l'URL
+    url = input("Inserisci URL (http://example.com): ")
     
-    # Costruzione dell'URL in base alla porta
-    if porta == "80":
-        url = f"http://{host}:{porta}"
-    elif porta == "443":
-        url = f"https://{host}:{porta}"
-    else:
-        print("Controlla la porta inserita!")
-        return
 
     # Stampa dell'URL verificato
     print(f"Verifico: {url}")
